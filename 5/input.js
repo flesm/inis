@@ -242,7 +242,7 @@ class DraggableElement {
         this.isSticky = !this.isSticky;
 
         if (this.isSticky) {
-            this.element.style.backgroundColor = 'blue';
+            this.element.style.backgroundColor = 'black';
             this.saveOriginalPos();
 
             const rect = this.element.getBoundingClientRect();
